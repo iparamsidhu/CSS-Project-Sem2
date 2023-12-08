@@ -690,6 +690,13 @@ footer .copyright{
 #page-header.about-header{
     background-image: url("../img/about/about1.jpg");
 }
+#page-header.about-header h2{
+    font-family: 'Agbalumo', cursive;
+    font-weight: 800;
+}
+#page-header.about-header p{
+    font-family: 'Montserrat', sans-serif;
+}
 #about-head img{
     width: 50%;
     height: auto;
@@ -697,6 +704,9 @@ footer .copyright{
 #about-head{
     display: flex;
     align-items: center;
+}
+#about-head div h2, p{
+    font-family: 'Roboto Slab', serif;
 }
 #about-head div{
     padding-left: 40px;
